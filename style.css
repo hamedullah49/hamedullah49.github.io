@@ -1,0 +1,75 @@
+html, body{
+    background: rgb(36,0,0);
+    background: linear-gradient(41deg, rgb(156, 8, 20, 1) 0%, #bb1422 50%, rgba(255,0,93,1) 100%);
+    margin: 0px;
+}
+footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+ul, li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* Header section */
+#navBar{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    /* background: linear-gradient(45deg, #ba081f 0%, rgb(182, 0, 67) 100%); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content:space-between;
+    align-items: center;
+}
+#navBar:first-child{
+    margin-left: auto;
+}
+.navIcons{
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    height: 30px;
+}
+.navIcons:hover{
+    height: 40px;
+    background-color: #bb1422;
+    /* margin: 10px; */
+}
+.navIcons:active{
+    background-color:#bb1422;
+}
+
+/* main content */
+.introTextBox{
+    color: white;
+    padding: 20px 0 20px 0;
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+#circularAvatar{
+    border: 6px dotted white;
+    height: 200px;
+    padding: 3px;
+}
+#introName{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#introduction{
+    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}

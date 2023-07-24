@@ -1,0 +1,72 @@
+html, body{
+    height:100%;
+    margin: 0;
+}
+main{
+    height: 100%;
+    background: rgb(10,35,66);
+    background: linear-gradient(41deg, rgba(10,35,66,1) 0%, rgba(10,110,157,1) 60%, rgba(69,252,227,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Form */
+#loginForm{
+    font-family: Arial;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 370px;
+    /* Glass background for the login if wanted!
+    backdrop-filter: blur(10px); Adjust the blur radius as needed
+    background: linear-gradient(41deg, rgba(255,255,255,0.25) 0%, rgba(208,203,203,0.35) 100%); Adjust the color and opacity as needed
+    border-radius: 30px;
+    */
+    /* sold background color for the login if wanted!
+    background-color: rgba(2,0,36,1);
+    height: 600px;
+    width: 400px;
+    */
+    }
+    #loginForm #welcomeHeader {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+    }
+    #loginForm #welcomeHeader #comName {
+        color: #2ca58d;
+        font-family: 'Times New Roman', Arial;
+        font-size: 40px;
+    }
+    .inputLabel{
+        margin:10px 0px 0px 0px;
+        padding:0px 0 0px 0;
+        color: white;
+        font-weight: bold;
+    }
+    .inputField {
+        background-color: transparent;
+        color: white;
+        margin:5px 0 5px 0;
+        padding: 0px 0px 5px 0;
+        height: 25px;
+        width: 250px;
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    #loginButton{
+        font-size: 16px;
+        background-color: #1e96fc;
+        margin-top: 40px;
+        height: 40px;
+        width: 80px;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        text-size: 14px;
+    }
